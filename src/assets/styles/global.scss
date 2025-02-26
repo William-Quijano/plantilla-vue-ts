@@ -1,0 +1,13 @@
+@layer theme, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+//@import "tailwindcss/preflight.css" layer(base) prefix(tw);
+@import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
+
+@font-face {
+  font-family: MuseoSans ;
+  font-style: normal;
+  font-weigth: 300;
+  src: local('MuseoSans'), url("./font/MuseoSans.woff") format("woff");
+}
+

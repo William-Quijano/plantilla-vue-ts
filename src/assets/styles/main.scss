@@ -1,0 +1,7 @@
+
+@use '@/assets/styles/global.scss';
+@use 'vuetify' with (
+  $body-font-family: MuseoSans,
+   //$utilities: false,
+);
+

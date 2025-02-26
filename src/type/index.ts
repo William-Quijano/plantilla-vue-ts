@@ -1,0 +1,1 @@
+export * from '@/views/form/type/form.type'
